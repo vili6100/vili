@@ -1,0 +1,25 @@
+body {
+	font-family: Verdana;
+}
+* {
+	box-sizing: border-box;
+}
+
+/*map styles*/
+.map {
+	height: 500px;
+}
+header {
+	width 100%;
+	bechround-color-black;
+	color:white;
+	text-align:center;
+	padding:20px 0;
+	
+	}
+	
+	
+
+
+
+/*Custom styles*/

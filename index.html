@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Layout</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<header>
+			<h1>Site name</h1>
+		</header>
+
+		<ul class="menu">
+			<li class="menu-item"><a href="#">Menu item 1</a></li>
+			<li class="menu-item"><a href="#">Menu item 2</a></li>
+			<li class="menu-item"><a href="#">Menu item 3</a></li>
+			<li class="menu-item"><a href="#">Menu item 4</a></li>
+		</ul>
+		
+		<div class="container clearfix">
+			<div class="sidebar">
+				<ul class="sidebar-menu">
+					<li class="sidebar-menu-item"><a href="#heading1">Menu item 1</a></li>
+					<li class="sidebar-menu-item"><a href="#heading2">Menu item 2</a></li>
+					<li class="sidebar-menu-item"><a href="#heading3">Menu item 3</a></li>
+					<li class="sidebar-menu-item"><a href="#heading4">Menu item 4</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<h1 id="heading1">Lorem ipsum dolor sit amet.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias suscipit iste quaerat necessitatibus repudiandae beatae nisi itaque, quia numquam consequuntur culpa, cum laborum libero ut molestiae adipisci maiores vel ea.</p>
+				<h2 id="heading2">Lorem ipsum dolor.</h2>
+				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa officiis doloremque, accusantium ex facilis repellat consequatur magni ipsum, cupiditate quae sequi adipisci non accusamus corporis ab, cumque. Repellat, sunt, adipisci.</span><span>Numquam corporis quasi cum reiciendis commodi, distinctio explicabo eligendi ut, eos minus laudantium minima ullam aliquid qui obcaecati debitis sapiente voluptas error, iste, deleniti ipsum dolorem dignissimos odit voluptates. Accusantium!</span></p>
+				<h2 id="heading3">Lorem ipsum dolor sit amet.</h2>
+				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio inventore dolorem quas vitae earum perferendis eveniet adipisci impedit magnam fugiat, recusandae maiores, excepturi provident quaerat. Minima voluptatum neque aliquid, sunt.</span>
+				<span>Assumenda, nihil at tempora ipsum rem placeat ducimus error voluptatibus neque, amet harum corporis dolor enim quia quasi aut? Eligendi quibusdam repellat delectus saepe quidem dolorem omnis nesciunt consequatur perspiciatis.</span>
+				<span>Facere, expedita labore assumenda qui minima, facilis quia, maxime quibusdam ab nihil pariatur sed vero nulla officia fugiat ipsa! Eaque quod voluptates inventore deserunt tempora optio dolorem at ullam debitis.</span></p>
+				<h2 id="heading4">Lorem ipsum dolor sit amet.</h2>
+				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio inventore dolorem quas vitae earum perferendis eveniet adipisci impedit magnam fugiat, recusandae maiores, excepturi provident quaerat. Minima voluptatum neque aliquid, sunt.</span>
+				<span>Assumenda, nihil at tempora ipsum rem placeat ducimus error voluptatibus neque, amet harum corporis dolor enim quia quasi aut? Eligendi quibusdam repellat delectus saepe quidem dolorem omnis nesciunt consequatur perspiciatis.</span>
+				<span>Facere, expedita labore assumenda qui minima, facilis quia, maxime quibusdam ab nihil pariatur sed vero nulla officia fugiat ipsa! Eaque quod voluptates inventore deserunt tempora optio dolorem at ullam debitis.</span></p>
+				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni enim voluptas totam alias quod optio, sint dignissimos molestias aliquid incidunt voluptatibus deserunt quisquam iure, provident eaque. Sint magni fuga voluptates.</span>
+				<span>Placeat officiis fuga eius temporibus modi, numquam in quae soluta optio, consequuntur pariatur atque! Consequatur nobis qui architecto pariatur, corporis amet sapiente tempora consectetur ipsam molestias, quae, sit ducimus quas!</span>
+				<span>Possimus dolorem ducimus, tempore, non quis nostrum veniam magni mollitia ex, perspiciatis quidem dolores nesciunt labore. Necessitatibus dolorum ad accusamus dolor unde quam cum, cumque suscipit sapiente commodi. Illo, eius.</span>
+				<span>Ullam sapiente nesciunt amet assumenda reiciendis quam ea ducimus iusto accusantium tenetur temporibus voluptatum minima rem incidunt exercitationem quae quia impedit commodi eum sequi, voluptatem iure nam. Iure, ducimus, saepe.</span></p>
+			</div>
+		</div> <!-- emd container -->
+
+		<footer>
+			<p class="copyright">Copyright © 2016</p>
+			<div class="map-controls">
+	<select name="start" id="start" onchange="calcRouteMod();">
+		<option data-lat="50.60479338921412" data-lng="26.261417269706726">Корпус 7</option>
+		<option data-lat="50.60970056377766" data-lng="26.261213421821594">Корпус 2</option>
+		<option data-lat="50.61023673134778" data-lng="26.259990334510803">Корпус 3</option>
+		<option data-lat="50.61064895920349" data-lng="26.25909447669983">Корпус 4</option>
+		<option data-lat="50.61059789633608" data-lng="26.258423924446106">Корпус 5</option>
+		<option data-lat="50.60988981886179" data-lng="26.25884771347046">Корпус 6</option>
+	</select>
+	<select name="end" id="end" onchange="calcRouteMod();">
+		<option data-lat="50.60479338921412" data-lng="26.261417269706726">Корпус 7</option>
+		<option data-lat="50.60970056377766" data-lng="26.261213421821594">Корпус 2</option>
+		<option data-lat="50.61023673134778" data-lng="26.259990334510803">Корпус 3</option>
+		<option data-lat="50.61064895920349" data-lng="26.25909447669983">Корпус 4</option>
+		<option data-lat="50.61059789633608" data-lng="26.258423924446106">Корпус 5</option>
+		<option data-lat="50.60988981886179" data-lng="26.25884771347046">Корпус 6</option>
+	</select>
+</div>
+
+<div class="map" id="map"></div>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8OI63bD1KAI4MAo0yz7p0Fj-RiPEZYPk"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
